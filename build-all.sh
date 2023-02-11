@@ -33,7 +33,7 @@ echo "Releasing $version"
 
 GOSRC=..
 
-pushd ${GOSRC}/chat > /dev/null
+pushd ${GOSRC}/chat_assistant > /dev/null
 
 # Prepare directory for the new release
 rm -fR ./releases/${version}
